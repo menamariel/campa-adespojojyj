@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Territorios para la Vida</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #E9DBC7;
+      color: #3E2E1F;
+    }
+
+    header {
+      background-color: #C47A5A;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .intro img {
+      max-width: 300px;
+      border-radius: 50%;
+    }
+
+    .intro p {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+
+    .bloque {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 30px;
+      background-color: #FFF;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .imagen {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .imagen img {
+      width: 100%;
+      height: auto;
+    }
+
+    .contenido {
+      flex: 2;
+      padding: 20px;
+    }
+
+    .contenido h2 {
+      font-family: 'Roboto Slab', serif;
+      color: #6E8B5C;
+    }
+
+    footer {
+      background-color: #3E2E1F;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .btn-footer {
+      display: inline-block;
+      margin: 10px;
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Territorios para la Vida</h1>
+    <nav>
+      <ul>
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">HISTORIAS</a></li>
+        <li><a href="#">ACCIONES</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <img src="Imagenes/logo.png" alt="Logo de la campaña" />
+    <p>
+      Esta campaña busca visibilizar el despojo de tierras que enfrentan las comunidades indígenas y campesinas en México. A través del arte, la voz y la memoria, defendemos los territorios como espacios de vida, cultura y dignidad.
+    </p>
+  </section>
+
+  <main>
+    <section class="bloque">
+      <div class="imagen">
+        <img src="Imagenes/testimonio1.jpg" alt="Comunidad en defensa" />
+      </div>
+      <div class="contenido">
+        <h2>La voz de la resistencia</h2>
+        <p><strong>Testimonio:</strong> “Nos quieren quitar lo que por generaciones hemos cuidado. La tierra no se vende, se defiende.”</p>
+        <p>Las comunidades que habitan estos territorios enfrentan amenazas constantes por megaproyectos, minería, y políticas injustas. Su lucha no solo es por la tierra, es por la vida y la memoria colectiva.</p>
+      </div>
+    </section>
+
+    <section class="bloque">
+      <div class="imagen">
+        <img src="Imagenes/mapa.jpg" alt="Mapa de conflictos territoriales" />
+      </div>
+      <div class="contenido">
+        <h2>Territorios en conflicto</h2>
+        <p>Existen decenas de territorios indígenas bajo amenaza. Desde el sureste hasta el norte del país, las comunidades denuncian el despojo, la violencia y la falta de consulta previa.</p>
+        <p>Conoce los casos más representativos y únete a las acciones para visibilizar la problemática.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="botones-pie">
+      <a href="tel:+525630030426" class="btn-footer">+52 56 3003 0426</a>
+      <a href="https://www.instagram.com" target="_blank" class="btn-footer">Instagram</a>
+      <a href="https://www.facebook.com" target="_blank" class="btn-footer">Facebook</a>
+    </div>
+  </footer>
+</body>
+</html>

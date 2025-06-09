@@ -1,0 +1,118 @@
+/* Fuente base: Open Sans para cuerpo de texto */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E9DBC7; /* Beige tierra */
+  color: #3E2E1F; /* Marrón oscuro */
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #C47A5A; /* Terracota suave */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #A9A29C; /* Gris cálido */
+}
+
+/* INTRODUCCIÓN */
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.intro img {
+  max-width: 280px;
+  border-radius: 50%;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* SECCIONES DE CONTENIDO */
+.bloque {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  max-width: 1000px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.imagen {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contenido {
+  flex: 2;
+  padding: 25px;
+}
+
+.contenido h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #6E8B5C; /* Verde hoja */
+  margin-top: 0;
+}
+
+.contenido p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #3E2E1F;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.btn-footer {
+  display: inline-block;
+  margin: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.btn-footer:hover {
+  color: #C47A5A;
+}
